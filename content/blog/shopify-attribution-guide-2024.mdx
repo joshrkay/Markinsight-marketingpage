@@ -1,0 +1,123 @@
+---
+title: "The Complete Shopify Attribution Guide for DTC Brands"
+description: "Everything you need to know about multi-channel attribution for Shopify stores. First-party data, iOS 14 impact, and how to measure what's actually working."
+date: "2024-03-15"
+author: "MarkInsight Team"
+category: "Attribution"
+tags: ["attribution", "shopify", "ios14", "meta ads", "google ads"]
+---
+
+If you're running a Shopify store in 2024, you've probably noticed that your Meta Ads dashboard says one thing, your Google Ads dashboard says another, and Shopify's built-in reports say something else entirely.
+
+This isn't a bug. It's attribution.
+
+## What Is Attribution (And Why Is It Broken)?
+
+Attribution is the process of assigning credit for a sale to the marketing touchpoints that influenced it.
+
+Every ad platform has a built-in attribution window — a period of time after someone clicks or views an ad during which they get credit for any purchase. The problem: **every platform attributes to itself**, using its own rules, its own windows, and its own data.
+
+This means:
+
+- Meta claims a sale because someone saw a Facebook ad three days ago
+- Google claims the same sale because someone clicked a Shopping ad yesterday
+- TikTok claims it too because the person watched a TikTok ad last week
+
+**You can't add these numbers together.** You're double (or triple) counting.
+
+## The iOS 14 Problem
+
+Apple's App Tracking Transparency (ATT) framework, rolled out with iOS 14.5 in 2021, broke pixel-based tracking for iOS users. If a customer uses an iPhone and hasn't opted into tracking, Meta can't follow them from ad to purchase.
+
+The result: **Meta's reported ROAS is inflated** for most brands. Their models fill in the gaps with statistical modeling that tends to over-attribute.
+
+This is why brands suddenly saw their Meta ROAS "drop" after iOS 14 — the numbers before were inflated. The real performance hadn't changed as much as it looked.
+
+## First-Party Attribution: The Solution
+
+The best way to get accurate attribution in 2024 is **first-party data** — data you collect directly through your own store.
+
+When a customer buys from your Shopify store, Shopify knows:
+- Exactly what they bought
+- Exactly when they bought it
+- What UTM parameters (ad tracking codes) were in their URL
+
+By combining Shopify's first-party order data with UTM tracking from your ad campaigns, you can build attribution that doesn't rely on pixels, cookies, or what ad platforms self-report.
+
+This is how MarkInsight works.
+
+## How to Set Up UTM Tracking
+
+Every ad you run should include UTM parameters in the destination URL. These are small tags appended to your link:
+
+```
+https://yourstore.com/products/item?utm_source=meta&utm_medium=paid&utm_campaign=prospecting-aug24
+```
+
+The key UTM parameters:
+- `utm_source` — the platform (meta, google, tiktok)
+- `utm_medium` — the channel type (paid, email, organic)
+- `utm_campaign` — the specific campaign name
+- `utm_content` — the specific ad or creative
+
+When someone clicks this link and makes a purchase, Shopify records the UTM data with the order. That's your attribution signal.
+
+## Attribution Windows: What They Mean
+
+An **attribution window** is how long after an ad interaction a platform claims credit for a sale.
+
+Common settings:
+- **7-day click, 1-day view** (Meta default) — credit any purchase within 7 days of clicking or 1 day of viewing
+- **30-day click** (Google default for some campaigns) — credit any purchase within 30 days of clicking
+- **1-day click** (conservative) — only credit purchases within 24 hours
+
+For most DTC brands selling products under $200, a **7-day click / 1-day view** window is reasonable. For higher-ticket items ($200+), you may want a longer window since the consideration period is longer.
+
+## Multi-Touch Attribution Models
+
+Single-touch models (last-click, first-click) give all credit to one interaction. Multi-touch models distribute credit across multiple touchpoints in the customer journey.
+
+**Last-click**: 100% credit to the final ad clicked before purchase. Easy to understand, but ignores all the work earlier touchpoints did.
+
+**First-click**: 100% credit to the first ad interaction. Good for measuring which campaigns are best at generating new awareness.
+
+**Linear**: Equal credit to every touchpoint. Simple, and often more accurate than single-touch models.
+
+**Time-decay**: More credit to touchpoints closer to the purchase. Useful if you believe recency matters most.
+
+For most DTC brands, **linear attribution** on a 7-day window is a good starting point. It's fair to all channels and doesn't over-index on the last click.
+
+## Reading Your Attribution Data
+
+When you look at your attribution dashboard, you're looking at the **assigned credit** for each channel — not necessarily the exact causal impact.
+
+A few things to keep in mind:
+
+1. **Meta's self-reported ROAS will almost always be higher** than what you see in MarkInsight. That's okay — MarkInsight uses first-party data, not Meta's modeling.
+
+2. **Google Shopping tends to have strong last-click numbers** because customers often search for your brand right before buying. This can make Google look more valuable than it is on a linear model.
+
+3. **TikTok view-through numbers can be misleading**. If you see strong TikTok attribution, make sure it's click-based, not view-through, before scaling.
+
+4. **Look at blended ROAS**, not channel-by-channel in isolation. The channels work together.
+
+## What Good Attribution Looks Like
+
+A healthy Shopify store doing $1M–$3M in revenue typically sees something like:
+
+- 40–60% of attributed revenue from Meta (brand + prospecting)
+- 20–30% from Google (mostly Shopping + brand search)
+- 10–20% from TikTok (awareness/prospecting)
+- 5–10% from other channels
+
+If one channel is claiming 90%+ of revenue, something is misconfigured. If channels are claiming more revenue than Shopify actually recorded, you have double-counting.
+
+## Getting Started with MarkInsight
+
+MarkInsight connects directly to your Shopify store and your ad accounts to give you:
+
+1. **First-party attribution** based on UTM data and Shopify orders
+2. **Multi-channel view** of all 6 platforms in one dashboard
+3. **AI insights** that explain what's working and what isn't
+
+Install free on the Shopify App Store — no credit card required.
