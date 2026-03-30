@@ -13,7 +13,7 @@ export default function NotFound() {
         Page not found
       </h1>
       <p className="mb-8" style={{ color: "var(--color-foreground-secondary)" }}>
-        Looks like this page doesn't exist. It may have moved or been removed.
+        Looks like this page doesn&apos;t exist. It may have moved or been removed.
       </p>
       <Link
         href="/"

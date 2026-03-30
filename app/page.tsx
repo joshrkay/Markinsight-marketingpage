@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight,
-  BarChart3,
   Zap,
   Brain,
   ShoppingBag,
@@ -365,7 +364,7 @@ export default function HomePage() {
             >
               Everything you need.
               <br />
-              <span className="gradient-text">Nothing you don't.</span>
+              <span className="gradient-text">Nothing you don&apos;t.</span>
             </h2>
             <p
               className="text-xl max-w-2xl mx-auto"
@@ -492,7 +491,7 @@ export default function HomePage() {
               className="text-xl max-w-xl mx-auto"
               style={{ color: "var(--color-foreground-secondary)" }}
             >
-              Other tools charge more as you grow. We don't. Your success shouldn't cost more in analytics fees.
+              Other tools charge more as you grow. We don&apos;t. Your success shouldn&apos;t cost more in analytics fees.
             </p>
           </div>
 
@@ -601,7 +600,7 @@ export default function HomePage() {
             />
             <div className="relative">
               <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-                Ready to see what's working?
+                Ready to see what&apos;s working?
               </h2>
               <p className="text-lg text-indigo-100 mb-8 max-w-xl mx-auto">
                 Install MarkInsight free. No credit card. No GMV fees. Just honest attribution

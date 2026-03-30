@@ -167,7 +167,7 @@ export default function PricingPage() {
             className="text-xl max-w-2xl mx-auto"
             style={{ color: "var(--color-foreground-secondary)" }}
           >
-            Other analytics tools charge more as your store grows. MarkInsight doesn't. Pick a plan
+            Other analytics tools charge more as your store grows. MarkInsight doesn&apos;t. Pick a plan
             and your price never changes — no matter your revenue.
           </p>
         </div>
@@ -360,7 +360,7 @@ export default function PricingPage() {
             How does MarkInsight compare?
           </h2>
           <p className="mb-8" style={{ color: "var(--color-foreground-secondary)" }}>
-            Most Shopify analytics tools scale pricing with your revenue. We don't.
+            Most Shopify analytics tools scale pricing with your revenue. We don&apos;t.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
